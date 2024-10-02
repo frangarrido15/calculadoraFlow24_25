@@ -29,6 +29,14 @@ public class Main {
                 System.out.println(operators.add(num1,num2));
                 menu();
                 break;
+            case 2:
+                System.out.println("Enter first number: ");
+                int num3 = scanner.nextInt();
+                System.out.println("Enter second number: ");
+                int num4 = scanner.nextInt();
+                System.out.println(operators.subtract(num3,num4));
+                menu();
+                break;
             case 0:
                 System.out.println("Goodbye!");
                 break;
