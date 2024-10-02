@@ -26,7 +26,7 @@ public class Main {
                 int num1 = scanner.nextInt();
                 System.out.println("Enter second number: ");
                 int num2 = scanner.nextInt();
-                System.out.println(operators.add(num1,num2));
+                System.out.println("El resultado de la suma es: " + operators.add(num1,num2));
                 menu();
                 break;
             case 2:
@@ -34,7 +34,7 @@ public class Main {
                 int num3 = scanner.nextInt();
                 System.out.println("Enter second number: ");
                 int num4 = scanner.nextInt();
-                System.out.println(operators.subtract(num3,num4));
+                System.out.println("El resultado de la resta es: " + operators.subtract(num3,num4));
                 menu();
                 break;
             case 0:
